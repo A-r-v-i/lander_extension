@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+
+#time {
+    font-size: 4rem;
+    margin: 1rem;
+    width: 400px;
+}
+
+#notify {
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+h2 {
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+.quotes_field {
+    background-color: #bccca67a; 
+    /* opacity: 0.4; */
+    width: 500px;
+    /* border-radius: 20px; */
+    padding: 5px;  
+    color: #293462;
+}
+
+#quotes_container {
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tweet_container {
+    border-radius: 50px;
+    border-color: darkslateblue;
+}
+
+@media(max-width: 700px) {
+    #time {
+        font-size: 3rem;
+    }
+}
